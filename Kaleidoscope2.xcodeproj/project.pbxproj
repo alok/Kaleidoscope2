@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DD4AF122BD1C86D00C1B3BF /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7DD4AF112BD1C86D00C1B3BF /* RealityKitContent */; };
+		7DD4AF142BD1C86D00C1B3BF /* Kaleidoscope2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4AF132BD1C86D00C1B3BF /* Kaleidoscope2App.swift */; };
+		7DD4AF162BD1C86D00C1B3BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4AF152BD1C86D00C1B3BF /* ContentView.swift */; };
+		7DD4AF182BD1C86D00C1B3BF /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4AF172BD1C86D00C1B3BF /* Renderer.swift */; };
+		7DD4AF1A2BD1C86D00C1B3BF /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4AF192BD1C86D00C1B3BF /* Shaders.metal */; };
+		7DD4AF1E2BD1C86D00C1B3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD4AF1D2BD1C86D00C1B3BF /* Preview Assets.xcassets */; };
+		7DD4AF202BD1C86E00C1B3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD4AF1F2BD1C86E00C1B3BF /* Assets.xcassets */; };
+		7DD4AF2B2BD1C86F00C1B3BF /* Kaleidoscope2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD4AF2A2BD1C86F00C1B3BF /* Kaleidoscope2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DD4AF272BD1C86F00C1B3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DD4AF042BD1C86D00C1B3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DD4AF0B2BD1C86D00C1B3BF;
+			remoteInfo = Kaleidoscope2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DD4AF0C2BD1C86D00C1B3BF /* Kaleidoscope2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaleidoscope2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD4AF102BD1C86D00C1B3BF /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		7DD4AF132BD1C86D00C1B3BF /* Kaleidoscope2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaleidoscope2App.swift; sourceTree = "<group>"; };
+		7DD4AF152BD1C86D00C1B3BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DD4AF172BD1C86D00C1B3BF /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		7DD4AF192BD1C86D00C1B3BF /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		7DD4AF1B2BD1C86D00C1B3BF /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		7DD4AF1D2BD1C86D00C1B3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DD4AF1F2BD1C86E00C1B3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DD4AF212BD1C86E00C1B3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD4AF262BD1C86F00C1B3BF /* Kaleidoscope2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kaleidoscope2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD4AF2A2BD1C86F00C1B3BF /* Kaleidoscope2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaleidoscope2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DD4AF092BD1C86D00C1B3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD4AF122BD1C86D00C1B3BF /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD4AF232BD1C86F00C1B3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DD4AF032BD1C86D00C1B3BF = {
+			isa = PBXGroup;
+			children = (
+				7DD4AF0E2BD1C86D00C1B3BF /* Kaleidoscope2 */,
+				7DD4AF0F2BD1C86D00C1B3BF /* Packages */,
+				7DD4AF292BD1C86F00C1B3BF /* Kaleidoscope2Tests */,
+				7DD4AF0D2BD1C86D00C1B3BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD4AF0D2BD1C86D00C1B3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD4AF0C2BD1C86D00C1B3BF /* Kaleidoscope2.app */,
+				7DD4AF262BD1C86F00C1B3BF /* Kaleidoscope2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD4AF0E2BD1C86D00C1B3BF /* Kaleidoscope2 */ = {
+			isa = PBXGroup;
+			children = (
+				7DD4AF132BD1C86D00C1B3BF /* Kaleidoscope2App.swift */,
+				7DD4AF152BD1C86D00C1B3BF /* ContentView.swift */,
+				7DD4AF172BD1C86D00C1B3BF /* Renderer.swift */,
+				7DD4AF192BD1C86D00C1B3BF /* Shaders.metal */,
+				7DD4AF1B2BD1C86D00C1B3BF /* ShaderTypes.h */,
+				7DD4AF1F2BD1C86E00C1B3BF /* Assets.xcassets */,
+				7DD4AF212BD1C86E00C1B3BF /* Info.plist */,
+				7DD4AF1C2BD1C86D00C1B3BF /* Preview Content */,
+			);
+			path = Kaleidoscope2;
+			sourceTree = "<group>";
+		};
+		7DD4AF0F2BD1C86D00C1B3BF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				7DD4AF102BD1C86D00C1B3BF /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		7DD4AF1C2BD1C86D00C1B3BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7DD4AF1D2BD1C86D00C1B3BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DD4AF292BD1C86F00C1B3BF /* Kaleidoscope2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7DD4AF2A2BD1C86F00C1B3BF /* Kaleidoscope2Tests.swift */,
+			);
+			path = Kaleidoscope2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DD4AF0B2BD1C86D00C1B3BF /* Kaleidoscope2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD4AF2E2BD1C86F00C1B3BF /* Build configuration list for PBXNativeTarget "Kaleidoscope2" */;
+			buildPhases = (
+				7DD4AF082BD1C86D00C1B3BF /* Sources */,
+				7DD4AF092BD1C86D00C1B3BF /* Frameworks */,
+				7DD4AF0A2BD1C86D00C1B3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaleidoscope2;
+			packageProductDependencies = (
+				7DD4AF112BD1C86D00C1B3BF /* RealityKitContent */,
+			);
+			productName = Kaleidoscope2;
+			productReference = 7DD4AF0C2BD1C86D00C1B3BF /* Kaleidoscope2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DD4AF252BD1C86F00C1B3BF /* Kaleidoscope2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD4AF312BD1C86F00C1B3BF /* Build configuration list for PBXNativeTarget "Kaleidoscope2Tests" */;
+			buildPhases = (
+				7DD4AF222BD1C86F00C1B3BF /* Sources */,
+				7DD4AF232BD1C86F00C1B3BF /* Frameworks */,
+				7DD4AF242BD1C86F00C1B3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DD4AF282BD1C86F00C1B3BF /* PBXTargetDependency */,
+			);
+			name = Kaleidoscope2Tests;
+			productName = Kaleidoscope2Tests;
+			productReference = 7DD4AF262BD1C86F00C1B3BF /* Kaleidoscope2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DD4AF042BD1C86D00C1B3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7DD4AF0B2BD1C86D00C1B3BF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7DD4AF252BD1C86F00C1B3BF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7DD4AF0B2BD1C86D00C1B3BF;
+					};
+				};
+			};
+			buildConfigurationList = 7DD4AF072BD1C86D00C1B3BF /* Build configuration list for PBXProject "Kaleidoscope2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DD4AF032BD1C86D00C1B3BF;
+			productRefGroup = 7DD4AF0D2BD1C86D00C1B3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DD4AF0B2BD1C86D00C1B3BF /* Kaleidoscope2 */,
+				7DD4AF252BD1C86F00C1B3BF /* Kaleidoscope2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DD4AF0A2BD1C86D00C1B3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD4AF202BD1C86E00C1B3BF /* Assets.xcassets in Resources */,
+				7DD4AF1E2BD1C86D00C1B3BF /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD4AF242BD1C86F00C1B3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD4AF082BD1C86D00C1B3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD4AF1A2BD1C86D00C1B3BF /* Shaders.metal in Sources */,
+				7DD4AF162BD1C86D00C1B3BF /* ContentView.swift in Sources */,
+				7DD4AF182BD1C86D00C1B3BF /* Renderer.swift in Sources */,
+				7DD4AF142BD1C86D00C1B3BF /* Kaleidoscope2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD4AF222BD1C86F00C1B3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD4AF2B2BD1C86F00C1B3BF /* Kaleidoscope2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DD4AF282BD1C86F00C1B3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DD4AF0B2BD1C86D00C1B3BF /* Kaleidoscope2 */;
+			targetProxy = 7DD4AF272BD1C86F00C1B3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DD4AF2C2BD1C86F00C1B3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		7DD4AF2D2BD1C86F00C1B3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		7DD4AF2F2BD1C86F00C1B3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kaleidoscope2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5795ZPYZ2T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloksingh.Kaleidoscope2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/ShaderTypes.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		7DD4AF302BD1C86F00C1B3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kaleidoscope2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5795ZPYZ2T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloksingh.Kaleidoscope2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(TARGET_NAME)/ShaderTypes.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		7DD4AF322BD1C86F00C1B3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5795ZPYZ2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloksingh.Kaleidoscope2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaleidoscope2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaleidoscope2";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		7DD4AF332BD1C86F00C1B3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5795ZPYZ2T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloksingh.Kaleidoscope2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kaleidoscope2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kaleidoscope2";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DD4AF072BD1C86D00C1B3BF /* Build configuration list for PBXProject "Kaleidoscope2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD4AF2C2BD1C86F00C1B3BF /* Debug */,
+				7DD4AF2D2BD1C86F00C1B3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD4AF2E2BD1C86F00C1B3BF /* Build configuration list for PBXNativeTarget "Kaleidoscope2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD4AF2F2BD1C86F00C1B3BF /* Debug */,
+				7DD4AF302BD1C86F00C1B3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD4AF312BD1C86F00C1B3BF /* Build configuration list for PBXNativeTarget "Kaleidoscope2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD4AF322BD1C86F00C1B3BF /* Debug */,
+				7DD4AF332BD1C86F00C1B3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7DD4AF112BD1C86D00C1B3BF /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7DD4AF042BD1C86D00C1B3BF /* Project object */;
+}
