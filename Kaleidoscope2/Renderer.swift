@@ -143,8 +143,8 @@ class Renderer {
         let library = device.makeDefaultLibrary()
 
         let vertexFunction = library?.makeFunction(name: "vertexShader")
-        let fragmentFunction = library?.makeFunction(name: "fragmentShader")
-
+        let fragmentFunction = library?.makeFunction(name: "fragmentShader"
+        )
         let pipelineDescriptor = MTLRenderPipelineDescriptor()
         pipelineDescriptor.label = "RenderPipeline"
         pipelineDescriptor.vertexFunction = vertexFunction
@@ -164,7 +164,7 @@ class Renderer {
         /// Create and condition mesh data to feed into a pipeline using the given vertex descriptor
 
         let metalAllocator = MTKMeshBufferAllocator(device: device)
-
+        // Alok: this is where the box is made
         let mdlMesh = MDLMesh.newBox(withDimensions: SIMD3<Float>(4, 4, 4),
                                      segments: SIMD3<UInt32>(2, 2, 2),
                                      geometryType: MDLGeometryType.triangles,

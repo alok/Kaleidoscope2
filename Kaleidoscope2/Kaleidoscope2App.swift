@@ -46,3 +46,4 @@ struct MetalRendererApp: App {
         }.immersionStyle(selection: .constant(.full), in: .full)
     }
 }
+
